@@ -14,7 +14,7 @@ function rotate(items) {
 
 export default function HomePage() {
   const headline = rotate([
-    'HM77 Game — Pakistan\'s Fastest Growing Real Money App',
+    "HM77 Game — Pakistan's Fastest Growing Real Money App",
     'Download HM77 APK Free — Earn Real Cash Today',
     'HM 77 Game Pakistan — 50% Bonus on First Deposit',
     'HM77 Game Download — Play via JazzCash and EasyPaisa',
@@ -73,57 +73,21 @@ export default function HomePage() {
   }
 
   const games = [
-    {
-      title: 'Teen Patti',
-      desc: "The card game every Pakistani household knows has found a new home on HM77. HM77 Teen Patti tables run around the clock with real PKR stakes at every level — from beginner rooms where you can learn the game at minimal cost to high-roller tables where experienced players compete seriously. The rules are the same ones you grew up with, the only difference is that winning here means real money in your JazzCash wallet."
-    },
-    {
-      title: 'Dragon Tiger',
-      desc: "When you want a quick result without complexity, Dragon Tiger on HM77 delivers exactly that. One card is dealt to Dragon, one to Tiger — the higher card wins. A single round takes under 30 seconds, making it the fastest game on the platform. Pakistani players who want to earn without spending hours learning strategy consistently gravitate toward HM77 Dragon Tiger."
-    },
-    {
-      title: 'Slot Games',
-      desc: "HM77 carries over 200 slot machines from game providers that Pakistani players actually recognise — JILI, FunTa, and HB lead the catalogue. Fortune Gems, Money Coming, and Golden Empire are among the most played. Most HM77 slots include free spin features and bonus rounds that give you extra chances to win without additional bets. Minimum bets start from PKR 1 per round."
-    },
-    {
-      title: 'Fishing Games',
-      desc: "Fishing games occupy a unique space on HM77 that no other game category quite fills. You use different weapons to shoot fish swimming across the screen, with each fish worth a different number of coins. The bigger and rarer the fish, the higher the reward. Jackpot Fishing and Royal Fishing are the top performers on HM77, and they attract players who want something visually engaging alongside the earning potential."
-    },
-    {
-      title: 'Aviator',
-      desc: "Aviator on HM77 has built a loyal following among Pakistani players who enjoy games that test their nerve and timing. A plane takes off and a multiplier starts climbing — your job is to cash out before the plane disappears. The longer you stay in, the bigger your potential win. Cash out too late and you lose your bet. It is genuinely tense in a way that few casino games achieve, and HM77's Aviator runs smoothly on even budget Android phones."
-    },
-    {
-      title: 'Cricket Betting',
-      desc: "No platform for Pakistani players is complete without cricket, and HM77 takes cricket betting seriously. PSL matches, international tests, T20 series, and bilateral tours all feature live betting with odds that update ball by ball. You can bet on match winner, top scorer, total sixes, and dozens of other markets. For Pakistani cricket fans who follow the game closely, HM77 cricket betting is the most rewarding way to put that knowledge to use."
-    },
+    { title: 'Teen Patti', desc: "The card game every Pakistani household knows has found a new home on HM77. HM77 Teen Patti tables run around the clock with real PKR stakes at every level. The rules are the same ones you grew up with, the only difference is that winning here means real money in your JazzCash wallet.", img: '/images/banner1.webp', alt: 'HM77 Teen Patti Game Pakistan Real Money JazzCash' },
+    { title: 'Dragon Tiger', desc: "When you want a quick result without complexity, Dragon Tiger on HM77 delivers exactly that. One card is dealt to Dragon, one to Tiger — the higher card wins. A single round takes under 30 seconds, making it the fastest game on the platform.", img: '/images/banner2.webp', alt: 'HM77 Dragon Tiger Live Casino Game Pakistan' },
+    { title: 'Slot Games', desc: "HM77 carries over 200 slot machines from game providers that Pakistani players actually recognise — JILI, FunTa, and HB lead the catalogue. Fortune Gems, Money Coming, and Golden Empire are among the most played.", img: '/images/banner3.webp', alt: 'HM77 Slot Games JILI FunTa Pakistan Real Money' },
+    { title: 'Fishing Games', desc: "Fishing games occupy a unique space on HM77. You use different weapons to shoot fish swimming across the screen, with each fish worth a different number of coins. Jackpot Fishing and Royal Fishing are the top performers.", img: '/images/banner4.webp', alt: 'HM77 Fishing Games Jackpot Royal Fishing Pakistan' },
+    { title: 'Aviator', desc: "Aviator on HM77 has built a loyal following among Pakistani players who enjoy games that test their nerve and timing. A plane takes off and a multiplier climbs — your job is to cash out before the plane disappears.", img: '/images/banner5.webp', alt: 'HM77 Aviator Crash Game Pakistan Earn Money' },
+    { title: 'Cricket Betting', desc: "No platform for Pakistani players is complete without cricket, and HM77 takes cricket betting seriously. PSL matches, international tests, T20 series, and bilateral tours all feature live betting with odds that update ball by ball.", img: '/images/banner6.webp', alt: 'HM77 Cricket Betting PSL Pakistan Live Odds JazzCash' },
   ]
 
   const features = [
-    {
-      title: 'JazzCash Withdrawals in Minutes',
-      desc: "The single most important thing to Pakistani players is whether they can actually get their money out. HM77 has built its reputation on fast withdrawals. When you request a JazzCash withdrawal on HM77, the money typically arrives within five to ten minutes. There are no unexplained delays, no complicated verification processes for routine withdrawals, and no minimum waiting period between deposits and withdrawals."
-    },
-    {
-      title: 'Start With Just PKR 100',
-      desc: "HM77 set the minimum deposit at PKR 100 deliberately. The platform is designed for Pakistani players across all income levels, not just those who can afford large deposits. With PKR 100 you can explore the platform, try different games, and understand how everything works before deciding how much you want to invest. This low entry point has made HM77 accessible to players who were previously priced out of other platforms."
-    },
-    {
-      title: '50% Welcome Bonus on First Deposit',
-      desc: "Every new HM77 account receives a 50% bonus on the first deposit with absolutely no conditions attached at the point of claiming. Deposit PKR 200 and your balance shows PKR 300. Deposit PKR 1000 and you play with PKR 1500. The bonus is credited automatically the moment your first deposit clears — there is no code to enter and no support ticket to raise."
-    },
-    {
-      title: 'Runs on Any Android Phone',
-      desc: "HM77 was engineered specifically for the Android phones that most Pakistani players actually use. The APK is under 50MB and is optimised to run without lag on Infinix, Tecno, Samsung A-series, Oppo A-series, Vivo Y-series, and every other budget-to-mid-range device that makes up the majority of Pakistan's smartphone market. If your phone handles WhatsApp and YouTube, it handles HM77 without issues."
-    },
-    {
-      title: 'JazzCash and EasyPaisa Built In',
-      desc: "HM77 was designed around Pakistani payment infrastructure from the beginning, not adapted for it as an afterthought. JazzCash and EasyPaisa are both fully integrated for deposits and withdrawals. Bank transfers are also supported for players who prefer that route. There is no need for international payment methods, credit cards, or cryptocurrency — just the mobile wallets that are already on your phone."
-    },
-    {
-      title: '500+ Games Across Every Category',
-      desc: "HM77 has one of the broadest game catalogues of any earning app currently operating in Pakistan. Slots, card games, live dealer tables, fishing games, crash games, table games, and live sports betting — all available from a single account with a single wallet. The library is updated regularly with new titles from the same providers, so there is always something new to explore alongside the established favourites."
-    },
+    { title: 'JazzCash Withdrawals in Minutes', desc: "The single most important thing to Pakistani players is whether they can actually get their money out. HM77 has built its reputation on fast withdrawals. When you request a JazzCash withdrawal on HM77, the money typically arrives within five to ten minutes." },
+    { title: 'Start With Just PKR 100', desc: "HM77 set the minimum deposit at PKR 100 deliberately. With PKR 100 you can explore the platform, try different games, and understand how everything works before deciding how much you want to invest." },
+    { title: '50% Welcome Bonus on First Deposit', desc: "Every new HM77 account receives a 50% bonus on the first deposit with no conditions. Deposit PKR 200 and your balance shows PKR 300. The bonus is credited automatically the moment your first deposit clears." },
+    { title: 'Runs on Any Android Phone', desc: "HM77 was engineered specifically for the Android phones that most Pakistani players actually use. The APK is under 50MB and runs without lag on Infinix, Tecno, Samsung, Oppo, and Vivo devices." },
+    { title: 'JazzCash and EasyPaisa Built In', desc: "HM77 was designed around Pakistani payment infrastructure from the beginning. JazzCash and EasyPaisa are both fully integrated for deposits and withdrawals with no need for international payment methods." },
+    { title: '500+ Games Across Every Category', desc: "Slots, card games, live dealer tables, fishing games, crash games, and live sports betting — all available from a single HM77 account with a single wallet updated regularly with new titles." },
   ]
 
   const quickFacts = [
@@ -140,30 +104,12 @@ export default function HomePage() {
   ]
 
   const faqs = [
-    {
-      q: 'How do I download the HM77 Game APK in Pakistan?',
-      a: 'Tap the Download APK button at the top of this page. Your browser will save the HM77 APK file directly to your phone storage. Before you can install it, go to your phone Settings and find Security or Privacy — look for Unknown Sources or Install Unknown Apps and enable it. This is a one-time permission. Once enabled, find the downloaded file in your notifications or Downloads folder, tap it, and follow the installation steps. From download to playing your first game takes under five minutes on any Android phone.'
-    },
-    {
-      q: 'What exactly is HM77 Game and how does it work?',
-      a: 'HM77 is a real money gaming platform built for Pakistani players. You create a free account with your mobile number, deposit funds using JazzCash or EasyPaisa starting from PKR 100, choose from over 500 games including slots, Teen Patti, Dragon Tiger, fishing games, and cricket betting, play to win real PKR, and withdraw your earnings back to your JazzCash or EasyPaisa wallet. The entire cycle from deposit to withdrawal can happen within the same day.'
-    },
-    {
-      q: 'How do I deposit money into HM77 via JazzCash?',
-      a: "Login to your HM77 account and go to the Wallet section. Tap Deposit and select JazzCash as your payment method. HM77 will display a merchant number. Open your JazzCash app separately, go to Send Money, and transfer your chosen amount to that merchant number. Once the transaction is complete, JazzCash gives you a Transaction ID. Return to HM77, enter that Transaction ID in the deposit confirmation field, and your HM77 balance updates within seconds. The minimum deposit is PKR 100."
-    },
-    {
-      q: 'What is the HM77 welcome bonus and how do I claim it?',
-      a: "The HM77 welcome bonus gives every new player 50% extra on their very first deposit. It is applied completely automatically — you do not need a promo code, you do not need to contact support, and you do not need to opt in anywhere. Simply make your first deposit and HM77 adds the 50% bonus to your wallet immediately. Deposit PKR 100 and you play with PKR 150. Deposit PKR 500 and your balance shows PKR 750 from the start."
-    },
-    {
-      q: 'How do I login to my HM77 Game account?',
-      a: 'Open the HM77 app from your home screen or visit hm-77.com in your mobile browser. Tap the Login button in the top right corner. Enter your registered Pakistani mobile number in 03XXXXXXXXX format and your account password. If HM77 prompts for OTP verification, check your SMS for a six-digit code and enter it within 60 seconds. If you have forgotten your HM77 password, tap Forgot Password on the login screen, enter your mobile number, receive the reset OTP, and create a new password.'
-    },
-    {
-      q: 'How long do HM77 withdrawals take to reach JazzCash?',
-      a: 'JazzCash and EasyPaisa withdrawals from HM77 typically complete within five to ten minutes of submission during normal operating hours. In rare cases during peak periods, it may take up to 30 minutes. Bank transfers take up to 24 hours. The minimum withdrawal amount on HM77 is PKR 300. Make sure your JazzCash or EasyPaisa account is active and registered in your name to avoid any delays.'
-    },
+    { q: 'How do I download the HM77 Game APK in Pakistan?', a: 'Tap the Download APK button at the top of this page. Your browser will save the HM77 APK file directly to your phone. Before installing, go to Settings and enable Unknown Sources under Security or Privacy. Once enabled, find the downloaded file, tap it, and follow the installation steps. From download to playing your first game takes under five minutes on any Android phone.' },
+    { q: 'What exactly is HM77 Game and how does it work?', a: 'HM77 is a real money gaming platform built for Pakistani players. You create a free account with your mobile number, deposit funds using JazzCash or EasyPaisa starting from PKR 100, choose from over 500 games, play to win real PKR, and withdraw your earnings back to your JazzCash or EasyPaisa wallet.' },
+    { q: 'How do I deposit money into HM77 via JazzCash?', a: 'Login to your HM77 account and go to the Wallet section. Tap Deposit and select JazzCash. HM77 displays a merchant number. Open your JazzCash app, send your chosen amount to that merchant number, then return to HM77 and enter the Transaction ID. Your balance updates within seconds.' },
+    { q: 'What is the HM77 welcome bonus and how do I claim it?', a: 'The HM77 welcome bonus gives every new player 50% extra on their very first deposit. It is applied completely automatically. Deposit PKR 100 and you play with PKR 150. Deposit PKR 500 and your balance shows PKR 750.' },
+    { q: 'How do I login to my HM77 Game account?', a: 'Open the HM77 app or visit hm-77.com in your mobile browser. Tap the Login button. Enter your registered Pakistani mobile number in 03XXXXXXXXX format and your account password. Complete OTP verification if prompted.' },
+    { q: 'How long do HM77 withdrawals take to reach JazzCash?', a: 'JazzCash and EasyPaisa withdrawals from HM77 typically complete within five to ten minutes. Bank transfers take up to 24 hours. The minimum withdrawal amount on HM77 is PKR 300.' },
   ]
 
   return (
@@ -235,22 +181,10 @@ export default function HomePage() {
       <section className="stats-bar">
         <div className="container">
           <div className="stats-grid">
-            <div className="stat-item">
-              <div className="stat-value">40,000+</div>
-              <div className="stat-label">Active Players</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-value">500+</div>
-              <div className="stat-label">Games Available</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-value">PKR 100</div>
-              <div className="stat-label">Minimum Deposit</div>
-            </div>
-            <div className="stat-item">
-              <div className="stat-value">5 Min</div>
-              <div className="stat-label">Avg Withdrawal</div>
-            </div>
+            <div className="stat-item"><div className="stat-value">40,000+</div><div className="stat-label">Active Players</div></div>
+            <div className="stat-item"><div className="stat-value">500+</div><div className="stat-label">Games Available</div></div>
+            <div className="stat-item"><div className="stat-value">PKR 100</div><div className="stat-label">Minimum Deposit</div></div>
+            <div className="stat-item"><div className="stat-value">5 Min</div><div className="stat-label">Avg Withdrawal</div></div>
           </div>
         </div>
       </section>
@@ -259,18 +193,20 @@ export default function HomePage() {
       <section className="section">
         <div className="container">
           <h2>What is HM77 Game? Complete Guide for Pakistani Players in {year}</h2>
+          <p><strong>HM77 Game</strong> arrived in Pakistan at exactly the right moment. As more players searched for earning apps that pay out reliably and quickly without complicated processes, <strong>HM 77</strong> filled that gap with a platform that combines a genuinely wide game library, fast JazzCash withdrawals, and one of the lowest entry points in the market — just PKR 100 to get started.</p>
+          <p>At its core, <strong>HM77</strong> is a real money gaming platform. You deposit money using JazzCash or EasyPaisa, select from hundreds of games across multiple categories, play to win, and withdraw your earnings back to your mobile wallet. The entire cycle can happen within the same day.</p>
+          <p>The <strong>HM77 game download</strong> is a free Android APK available exclusively from this official page at hm-77.com. Since the Google Play Store does not allow real money gaming apps in Pakistan, HM77 distributes its app as a direct APK download — which is the standard method used by all earning apps operating in Pakistan.</p>
+          <p>What makes <strong>HM 77 game</strong> stand out in a crowded market is the combination of things it gets right simultaneously. The game library is genuinely broad with over 500 titles. The payment processing is fast and reliable. The minimum deposit is accessible to players at every income level. And the 50% welcome bonus is credited automatically without any conditions or delays.</p>
 
-          <p><strong>HM77 Game</strong> arrived in Pakistan at exactly the right moment. As more players searched for earning apps that pay out reliably and quickly without complicated processes, <strong>HM 77</strong> filled that gap with a platform that combines a genuinely wide game library, fast JazzCash withdrawals, and one of the lowest entry points in the market — just PKR 100 to get started. Within months of launch, it had become one of the most downloaded earning apps among Pakistani Android users.</p>
+          {/* BANNER IMAGES IN CONTENT */}
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(200px, 1fr))', gap: '12px', margin: '32px 0' }}>
+            <img src="/images/banner1.webp" alt="HM77 Game Pakistan Teen Patti Slots Real Money JazzCash EasyPaisa" title="HM77 Teen Patti Casino Game" width="300" height="180" style={{ width: '100%', height: 'auto', borderRadius: '10px' }} />
+            <img src="/images/banner2.webp" alt="HM77 Dragon Tiger Live Casino Game Pakistan Real Money Winning" title="HM77 Dragon Tiger Game" width="300" height="180" style={{ width: '100%', height: 'auto', borderRadius: '10px' }} />
+            <img src="/images/banner3.webp" alt="HM77 Slot Games JILI FunTa Pakistan Best Earning App 2026" title="HM77 Slot Games Pakistan" width="300" height="180" style={{ width: '100%', height: 'auto', borderRadius: '10px' }} />
+            <img src="/images/banner4.webp" alt="HM77 APK Download Free Android Pakistan JazzCash EasyPaisa Deposit" title="HM77 APK Download Pakistan" width="300" height="180" style={{ width: '100%', height: 'auto', borderRadius: '10px' }} />
+          </div>
 
-          <p>At its core, <strong>HM77</strong> is a real money gaming platform. You deposit money using JazzCash or EasyPaisa, select from hundreds of games across multiple categories, play to win, and withdraw your earnings back to your mobile wallet. The entire cycle can happen within the same day. Pakistani players who have been frustrated by platforms that make deposits easy but withdrawals difficult have found HM77 to be a refreshing change — the withdrawal process is designed to be just as simple and fast as the deposit process.</p>
-
-          <p>The <strong>HM77 game download</strong> is a free Android APK available exclusively from this official page at hm-77.com. Since the Google Play Store does not allow real money gaming apps in Pakistan, HM77 distributes its app as a direct APK download. This is entirely standard practice for earning apps in Pakistan — the same way other well-known platforms operate. The key is always downloading from the official source, which is this page, to ensure you get the genuine, secure version of the app.</p>
-
-          <p>What makes <strong>HM 77 game</strong> stand out in a market that now has many competitors is the combination of things it gets right simultaneously. The game library is genuinely broad with over 500 titles from providers that Pakistani players recognise. The payment processing is fast and reliable. The minimum deposit is accessible to players at every income level. And the welcome bonus — 50% on the first deposit — is credited automatically without any of the conditions or delays that plague similar offers on other platforms.</p>
-
-          <p>Beyond the numbers, <strong>HM77 app</strong> has clearly been designed by people who understand Pakistani players specifically. The interface is clean and works well on budget Android phones. JazzCash and EasyPaisa are front and centre in the payment options rather than buried behind international methods that most Pakistani users do not have. The games themselves — Teen Patti, Ludo, cricket betting — reflect the preferences of the local market rather than being a copy-paste of an international casino catalogue with Pakistani payment methods bolted on.</p>
-
-          <div className="card" style={{ marginTop: '32px' }}>
+          <div className="card" style={{ marginTop: '16px' }}>
             <h3 style={{ color: 'var(--color-accent)', marginBottom: '20px' }}>HM77 Game — Quick Facts for {year}</h3>
             {quickFacts.map(([k, v]) => (
               <div key={k} className="comparison-row">
@@ -291,27 +227,9 @@ export default function HomePage() {
           </div>
           <div className="cards-grid">
             {[
-              {
-                step: '1',
-                title: 'Download the HM77 APK',
-                desc: 'Tap the Download APK button at the top of this page. The HM77 APK file will save directly to your phone. Before installing, go to Settings and enable Unknown Sources under Security or Privacy — this is a one-time step that allows Android to install apps from outside the Play Store. Once enabled, open the downloaded file and tap Install. The HM77 app installs in about 30 seconds and appears on your home screen immediately.',
-                link: '/hm77-download',
-                label: 'Full HM77 APK Download Guide'
-              },
-              {
-                step: '2',
-                title: 'Create Your Free HM77 Account',
-                desc: 'Open the HM77 app and tap Register. Enter your Pakistani mobile number in 03XXXXXXXXX format, create a password, and verify your number with the OTP sent by SMS. Your HM77 account is active within two minutes of starting registration. Every new account automatically qualifies for the 50% welcome bonus on the first deposit — there is nothing extra to do to claim it.',
-                link: '/hm77-register',
-                label: 'HM77 Registration Guide'
-              },
-              {
-                step: '3',
-                title: 'Deposit via JazzCash or EasyPaisa',
-                desc: 'Go to your HM77 wallet, tap Deposit, and choose JazzCash or EasyPaisa. Note the merchant number that HM77 displays. Open your JazzCash or EasyPaisa app, send your deposit amount to that merchant number, then return to HM77 and enter the Transaction ID. Your balance updates within seconds and your 50% welcome bonus is credited automatically on this first deposit.',
-                link: '/hm77-deposit',
-                label: 'HM77 JazzCash Deposit Guide'
-              },
+              { step: '1', title: 'Download the HM77 APK', desc: 'Tap the Download APK button at the top of this page. The HM77 APK file will save directly to your phone. Before installing, go to Settings and enable Unknown Sources under Security or Privacy. Once enabled, open the downloaded file and tap Install. The HM77 app installs in about 30 seconds.', link: '/hm77-download', label: 'Full HM77 APK Download Guide' },
+              { step: '2', title: 'Create Your Free HM77 Account', desc: 'Open the HM77 app and tap Register. Enter your Pakistani mobile number in 03XXXXXXXXX format, create a password, and verify your number with the OTP sent by SMS. Your HM77 account is active within two minutes. Every new account automatically qualifies for the 50% welcome bonus.', link: '/hm77-register', label: 'HM77 Registration Guide' },
+              { step: '3', title: 'Deposit via JazzCash or EasyPaisa', desc: 'Go to your HM77 wallet, tap Deposit, and choose JazzCash or EasyPaisa. Note the merchant number that HM77 displays. Send your deposit amount from your JazzCash app, then return to HM77 and enter the Transaction ID. Your balance updates within seconds and your 50% welcome bonus is credited automatically.', link: '/hm77-deposit', label: 'HM77 JazzCash Deposit Guide' },
             ].map((item) => (
               <div className="card" key={item.step}>
                 <div className="step-number">{item.step}</div>
@@ -331,7 +249,7 @@ export default function HomePage() {
             <div className="bonus-amount">50%</div>
             <div className="bonus-label">HM77 Welcome Bonus on Your First Deposit — {month}</div>
             <p style={{ color: 'var(--color-text-muted)', maxWidth: '560px', margin: '0 auto 28px', fontSize: '15px', lineHeight: '1.9' }}>
-              Every new <strong>HM77</strong> account receives a 50% bonus on the very first deposit. It is applied automatically — no promo code, no opt-in form, no support ticket required. Deposit PKR 100 and your wallet shows PKR 150. Deposit PKR 1000 and you start playing with PKR 1500. The bonus is there from the moment your first deposit clears, giving every new player a genuine head start on the platform.
+              Every new <strong>HM77</strong> account receives a 50% bonus on the very first deposit. Deposit PKR 100 and your wallet shows PKR 150. Deposit PKR 1000 and you start playing with PKR 1500. The bonus is there from the moment your first deposit clears.
             </p>
             <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
               <Link href="/go" className="btn btn-primary">Claim HM77 Welcome Bonus Now</Link>
@@ -341,16 +259,17 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* GAMES */}
+      {/* GAMES WITH IMAGES */}
       <section className="section section--dark">
         <div className="container">
           <div className="section-header">
             <h2>HM77 Games — 500+ Real Money Games Built for Pakistani Players</h2>
-            <p>HM77 covers every game category Pakistani players care about. From traditional card games played at family gatherings to international casino tables to live cricket betting — it is all here under one roof.</p>
+            <p>HM77 covers every game category Pakistani players care about. From traditional card games to live casino tables to cricket betting.</p>
           </div>
           <div className="cards-grid">
             {games.map((game, i) => (
               <div className="card" key={i}>
+                <img src={game.img} alt={game.alt} title={`HM77 ${game.title} Pakistan`} width="300" height="160" style={{ width: '100%', height: '160px', objectFit: 'cover', borderRadius: '8px', marginBottom: '16px' }} />
                 <h3>{game.title}</h3>
                 <p style={{ fontSize: '14px', lineHeight: '1.9' }}>{game.desc}</p>
               </div>
@@ -372,23 +291,17 @@ export default function HomePage() {
           <div className="cards-grid" style={{ gridTemplateColumns: 'repeat(auto-fit, minmax(280px, 1fr))' }}>
             <div className="card">
               <h3 style={{ color: 'var(--color-accent)' }}>HM77 Deposit via JazzCash</h3>
-              <p style={{ fontSize: '14px', lineHeight: '1.9' }}>Go to Wallet inside the <strong>HM77</strong> app and tap Deposit. Select JazzCash as your payment method. HM77 shows you a merchant number — send your deposit to that number from your JazzCash app, then enter the Transaction ID back in HM77. Your balance updates within seconds. The minimum deposit is PKR 100 and there is no upper limit on individual deposits.</p>
+              <p style={{ fontSize: '14px', lineHeight: '1.9' }}>Go to Wallet inside the <strong>HM77</strong> app and tap Deposit. Select JazzCash, note the merchant number, send your deposit from your JazzCash app, then enter the Transaction ID back in HM77. Your balance updates within seconds.</p>
               {[['Minimum Deposit', 'PKR 100'], ['Maximum Deposit', 'PKR 50,000'], ['Processing Time', 'Instant'], ['Methods', 'JazzCash, EasyPaisa, Bank']].map(([k, v]) => (
-                <div key={k} className="comparison-row">
-                  <span className="comparison-key">{k}</span>
-                  <span className="comparison-val">{v}</span>
-                </div>
+                <div key={k} className="comparison-row"><span className="comparison-key">{k}</span><span className="comparison-val">{v}</span></div>
               ))}
               <Link href="/hm77-deposit" className="btn btn-primary" style={{ marginTop: '20px', display: 'flex', justifyContent: 'center' }}>Complete HM77 Deposit Guide</Link>
             </div>
             <div className="card">
               <h3 style={{ color: '#4ade80' }}>HM77 Withdrawal to JazzCash</h3>
-              <p style={{ fontSize: '14px', lineHeight: '1.9' }}>When you are ready to cash out from <strong>HM77</strong>, go to Wallet and tap Withdraw. Choose JazzCash or EasyPaisa, enter your wallet number and the amount you want to withdraw, then confirm with your withdrawal password. Most withdrawals reach your JazzCash wallet within five to ten minutes. The minimum withdrawal is PKR 300.</p>
+              <p style={{ fontSize: '14px', lineHeight: '1.9' }}>Go to Wallet and tap Withdraw. Choose JazzCash or EasyPaisa, enter your wallet number and amount, confirm with your withdrawal password. Most withdrawals reach your JazzCash wallet within five to ten minutes.</p>
               {[['Minimum Withdrawal', 'PKR 300'], ['Maximum Per Transaction', 'PKR 49,500'], ['Processing Time', '5-10 minutes'], ['Methods', 'JazzCash, EasyPaisa, Bank']].map(([k, v]) => (
-                <div key={k} className="comparison-row">
-                  <span className="comparison-key">{k}</span>
-                  <span className="comparison-val">{v}</span>
-                </div>
+                <div key={k} className="comparison-row"><span className="comparison-key">{k}</span><span className="comparison-val">{v}</span></div>
               ))}
               <Link href="/hm77-withdrawal" className="btn btn-download" style={{ marginTop: '20px', display: 'flex', justifyContent: 'center' }}>Complete HM77 Withdrawal Guide</Link>
             </div>
@@ -401,7 +314,7 @@ export default function HomePage() {
         <div className="container">
           <div className="section-header">
             <h2>Why Pakistani Players Are Choosing HM77 Game in {year}</h2>
-            <p>HM77 is not just another earning app with a different name. Here is what genuinely sets it apart from the alternatives currently available in Pakistan.</p>
+            <p>HM77 is not just another earning app. Here is what genuinely sets it apart from the alternatives currently available in Pakistan.</p>
           </div>
           <div className="cards-grid">
             {features.map((item, i) => (
@@ -414,13 +327,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* HM77 LOGIN */}
+      {/* LOGIN */}
       <section className="section">
         <div className="container">
           <h2>HM77 Login — How to Access Your Account Quickly and Safely</h2>
-          <p>Logging into <strong>HM77</strong> takes about ten seconds once your account is set up. Open the HM77 app from your home screen — or navigate to hm-77.com in your mobile browser if you prefer using the web version — tap the Login button in the top right corner, and enter your registered Pakistani mobile number alongside your password.</p>
-          <p>Pakistani players who have recently switched phones or reinstalled the <strong>HM77 app</strong> may be asked to complete OTP verification as a security measure. This simply means HM77 sends a six-digit code to your registered mobile number via SMS. Enter that code within 60 seconds and your login completes normally. This verification step protects your account from unauthorised access.</p>
-          <p>Common <strong>HM77 login</strong> issues usually come down to one of two things — the wrong phone number format, or an outdated app version. Always enter your number as 03XXXXXXXXX without the country code. If your HM77 app is more than a few months old, download the latest version from this page before attempting to log in, as older versions sometimes have authentication conflicts with the current server.</p>
+          <p>Logging into <strong>HM77</strong> takes about ten seconds once your account is set up. Open the HM77 app from your home screen or navigate to hm-77.com in your mobile browser, tap the Login button, and enter your registered Pakistani mobile number alongside your password.</p>
+          <p>If you forget your <strong>HM77 login</strong> password, tap Forgot Password on the login screen. Enter your phone number, receive an OTP, and create a new password in under 2 minutes.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '24px', flexWrap: 'wrap' }}>
             <Link href="/go" className="btn btn-primary">Login to HM77 Now</Link>
             <Link href="/hm77-forgot-password" className="btn btn-outline">Forgot HM77 Password</Link>
@@ -428,13 +340,12 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* HM77 APK */}
+      {/* APK */}
       <section className="section section--dark">
         <div className="container">
           <h2>HM77 APK Download — Free Android Install Guide for Pakistan</h2>
-          <p>The <strong>HM77 game download</strong> comes as a free APK file for Android. APK stands for Android Package Kit — it is the standard file format that Android uses to install applications, equivalent to a setup file on a Windows computer. Since Google Play Store does not permit real money gaming apps to be listed in Pakistan, <strong>HM77 APK</strong> is distributed directly through the official website. This is the standard distribution method for earning apps across Pakistan and completely normal.</p>
-          <p>Installing the <strong>HM77 app</strong> requires one preparatory step that you only need to do once. Go to your phone Settings, find the Security or Privacy section, and enable Unknown Sources or Install Unknown Apps. This permission tells Android that you are allowing it to install apps from sources other than the Play Store. Once this is enabled, tap the downloaded HM77 APK file, tap Install on the installation screen, and the app is ready in about 30 seconds.</p>
-          <p>The <strong>HM77 game APK</strong> is regularly updated with new games, security improvements, and performance enhancements. When an update is available, the app notifies you inside. You can also revisit this page and download the latest APK manually at any time. Installing an update over an existing HM77 installation preserves your account, balance, and game history.</p>
+          <p>The <strong>HM77 game download</strong> comes as a free APK file for Android. Since Google Play Store does not permit real money gaming apps in Pakistan, <strong>HM77 APK</strong> is distributed directly through the official website hm-77.com.</p>
+          <p>Installing the <strong>HM77 app</strong> requires enabling Unknown Sources in your phone Settings once. After that, tap the downloaded HM77 APK file and tap Install. Installation takes about 30 seconds and the app is ready immediately.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '24px', flexWrap: 'wrap' }}>
             <Link href="/hm77-download" className="btn btn-download">Download HM77 APK Free</Link>
             <Link href="/hm77-apk" className="btn btn-outline">Full HM77 APK Guide</Link>
@@ -471,7 +382,7 @@ export default function HomePage() {
         <div className="container" style={{ textAlign: 'center' }}>
           <h2>Download HM77 Game and Start Earning in Pakistan Today</h2>
           <p style={{ color: 'var(--color-text-muted)', maxWidth: '580px', margin: '0 auto 28px', fontSize: '15px', lineHeight: '1.9' }}>
-            Join tens of thousands of Pakistani players who have already made <strong>HM77</strong> their go-to earning app. Download the <strong>HM77 APK</strong> free right now, deposit PKR 100 via JazzCash or EasyPaisa, claim your automatic 50% welcome bonus, and start playing from Pakistan's fastest growing real money gaming platform today.
+            Join tens of thousands of Pakistani players who have already made <strong>HM77</strong> their go-to earning app. Download the <strong>HM77 APK</strong> free, deposit PKR 100 via JazzCash, claim your 50% welcome bonus, and start playing today.
           </p>
           <div style={{ display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap' }}>
             <Link href="/hm77-download" className="btn btn-download">Download HM77 APK Free</Link>

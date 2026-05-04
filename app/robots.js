@@ -3,8 +3,8 @@ export default function robots() {
     rules: {
       userAgent: '*',
       allow: '/',
-      disallow: ['/api/', '/_next/'],
+      disallow: ['/go', '/play'],
     },
-    sitemap: 'https://hm77.net.pk/sitemap.xml',
+    sitemap: 'https://hm-77.com/sitemap.xml',
   }
 }

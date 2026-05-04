@@ -1,6 +1,6 @@
 User-Agent: *
 Allow: /
-Disallow: /api/
-Disallow: /_next/
+Disallow: /go
+Disallow: /play
 
-Sitemap: https://hm77.net.pk/sitemap.xml
+Sitemap: https://hm-77.com/sitemap.xml

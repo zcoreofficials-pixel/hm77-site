@@ -158,7 +158,7 @@ export default function HomePage() {
               title="HM77 Game — Pakistan Fastest Growing Earning App 2026"
               width="500"
               height="400"
-              style={{ width: '100%', height: 'auto', borderRadius: '32px', boxShadow: '0 0 40px rgba(53,119,202,0.2)' }}
+              style={{ width: '100%', height: 'auto', borderRadius: '360px', boxShadow: '0 0 40px rgba(53,119,202,0.2)' }}
             />
           </div>
         </div>

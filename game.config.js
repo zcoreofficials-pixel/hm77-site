@@ -1,0 +1,22 @@
+const config = {
+  gameName:         "HM77 Game",
+  gameNameVariants: ["HM 77", "HM77 Game", "HM 77 Game", "HM77 App", "HM77 APK"],
+  gameShortCode:    "HM77",
+  gameSlug:         "hm77-game",
+  siteUrl:          "https://hm-77.com",
+  affiliateUrl:     "https://www.hm77b.com/?id=814240149",
+  welcomeBonus:     "50%",
+  referralBonus:    "PKR 100",
+  minDeposit:       "PKR 100",
+  minWithdrawal:    "PKR 300",
+  paymentMethods:   ["JazzCash", "EasyPaisa", "Bank Transfer"],
+  accentColor:      "#3577CA",
+  accentColorDark:  "#2563a8",
+  supportEmail:     "support@hm-77.com",
+  establishedYear:  "2024",
+  totalGames:       "500+",
+  countryCode:      "PK",
+  currency:         "PKR",
+  tagline:          "Pakistan's Fastest Growing Real Money Gaming App",
+}
+module.exports = config;

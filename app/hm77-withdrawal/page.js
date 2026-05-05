@@ -14,7 +14,7 @@ export default function WithdrawalPage() {
       <Header />
       <div className="container" style={{ padding: '32px 16px 64px' }}>
         <div className="breadcrumb"><Link href="/">Home</Link> / HM77 Withdrawal</div>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner5.webp" alt="HM77 Withdrawal JazzCash EasyPaisa Pakistan Fast Payout" title="HM77 Withdrawal Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <h1>HM77 Withdrawal — How to Cash Out to JazzCash Pakistan</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '16px' }}>Complete guide to withdrawing your <strong>HM77</strong> winnings to JazzCash and EasyPaisa. Minimum PKR 300. Arrives in 5-10 minutes.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>

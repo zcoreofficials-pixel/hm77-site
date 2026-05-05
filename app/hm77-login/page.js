@@ -14,7 +14,7 @@ export default function LoginPage() {
       <Header />
       <div className="container" style={{ padding: '32px 16px 64px' }}>
         <div className="breadcrumb"><Link href="/">Home</Link> / HM77 Login</div>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner2.webp" alt="HM77 Login Account Access Pakistan JazzCash EasyPaisa" title="HM77 Login Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <h1>HM77 Login — How to Access Your Account in Pakistan</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '16px' }}>Complete guide to logging into your <strong>HM77 game</strong> account. Works on Android app and mobile browser. Fix common login issues instantly.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>

@@ -16,7 +16,7 @@ export default function DownloadPage() {
         <div className="breadcrumb">
           <Link href="/">Home</Link> / HM77 Download
         </div>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner1.webp" alt="HM77 APK Download Free Android Pakistan JazzCash EasyPaisa" title="HM77 Game Download Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <h1>HM77 APK Download — Free for Android in Pakistan</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '16px' }}>Download the latest official <strong>HM77 game APK</strong> for Android. Full install guide included. Works on all Android phones including Samsung, Oppo, Vivo, Infinix, and Tecno.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>

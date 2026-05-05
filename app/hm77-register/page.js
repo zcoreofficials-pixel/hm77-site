@@ -14,7 +14,7 @@ export default function RegisterPage() {
       <Header />
       <div className="container" style={{ padding: '32px 16px 64px' }}>
         <div className="breadcrumb"><Link href="/">Home</Link> / HM77 Register</div>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner3.webp" alt="HM77 Register New Account Pakistan 50% Welcome Bonus" title="HM77 Register Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <h1>HM77 Register — Create Your Free Account in Pakistan</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '16px' }}>Register on <strong>HM77 game</strong> in under two minutes. All you need is your Pakistani mobile number. New accounts get 50% welcome bonus automatically.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>

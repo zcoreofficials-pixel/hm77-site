@@ -14,7 +14,7 @@ export default function HowToPlayPage() {
       <Header />
       <div className="container" style={{ padding: '32px 16px 64px' }}>
         <div className="breadcrumb"><Link href="/">Home</Link> / How to Play HM77</div>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner4.webp" alt="HM77 How to Play Guide Pakistan Beginners Real Money" title="HM77 How to Play Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <h1>How to Play HM77 Game — Complete Beginner Guide</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '16px' }}>New to <strong>HM77</strong>? This complete beginner guide covers everything from downloading the app to playing your first game and making your first withdrawal.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>

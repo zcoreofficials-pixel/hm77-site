@@ -27,7 +27,7 @@ export default function FAQPage() {
       <Header />
       <div className="container" style={{ padding: '32px 16px 64px' }}>
         <div className="breadcrumb"><Link href="/">Home</Link> / HM77 FAQ</div>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner3.webp" alt="HM77 FAQ Questions Answers Pakistan JazzCash EasyPaisa" title="HM77 FAQ Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <h1>HM77 Game FAQ — All Questions Answered for Pakistan</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '16px' }}>Every question Pakistani players ask about <strong>HM77 game</strong> — download, login, deposits, withdrawals, bonuses, and account management.</p>
         </div>

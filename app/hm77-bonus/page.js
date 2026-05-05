@@ -14,7 +14,7 @@ export default function BonusPage() {
       <Header />
       <div className="container" style={{ padding: '32px 16px 64px' }}>
         <div className="breadcrumb"><Link href="/">Home</Link> / HM77 Bonus</div>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner6.webp" alt="HM77 Bonus 50% Welcome Offer Pakistan JazzCash EasyPaisa" title="HM77 Bonus Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <h1>HM77 Bonus — All Promotions and Offers in Pakistan</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '16px' }}>Complete guide to every <strong>HM77</strong> bonus available in Pakistan. Welcome bonus, daily rewards, referral bonus and seasonal promotions.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>

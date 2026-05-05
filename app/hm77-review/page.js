@@ -14,7 +14,7 @@ export default function ReviewPage() {
       <Header />
       <div className="container" style={{ padding: '32px 16px 64px' }}>
         <div className="breadcrumb"><Link href="/">Home</Link> / HM77 Review</div>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner2.webp" alt="HM77 Review Pakistan Real Money Gaming App 2026" title="HM77 Review Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <h1>HM77 Game Review 2026 — Complete Assessment for Pakistan</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '16px' }}>Detailed honest review of <strong>HM77 game</strong> covering games, bonuses, payments, withdrawal speed, and everything Pakistani players need to know.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>

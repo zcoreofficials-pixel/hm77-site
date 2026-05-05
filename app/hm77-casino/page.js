@@ -14,7 +14,7 @@ export default function CasinoPage() {
       <Header />
       <div className="container" style={{ padding: '32px 16px 64px' }}>
         <div className="breadcrumb"><Link href="/">Home</Link> / HM77 Casino Games</div>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner1.webp" alt="HM77 Casino Games Slots Teen Patti Dragon Tiger Pakistan" title="HM77 Casino Games Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <h1>HM77 Casino Games — 500+ Real Money Games Pakistan</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '16px' }}>Complete overview of every game category available on <strong>HM77</strong>. Slots, card games, live casino, fishing, crash games and sports betting.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>

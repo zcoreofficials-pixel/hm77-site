@@ -14,7 +14,7 @@ export default function DepositPage() {
       <Header />
       <div className="container" style={{ padding: '32px 16px 64px' }}>
         <div className="breadcrumb"><Link href="/">Home</Link> / HM77 Deposit</div>
-        <div className="page-hero">
+        <div className="page-hero"><img src="/images/banner4.webp" alt="HM77 Deposit JazzCash EasyPaisa Pakistan PKR 100 Minimum" title="HM77 Deposit Pakistan" width="800" height="200" style={{ width: "100%", borderRadius: "12px", marginBottom: "24px", objectFit: "cover" }} />
           <h1>HM77 Deposit — JazzCash and EasyPaisa Guide Pakistan</h1>
           <p style={{ color: 'var(--color-text-muted)', fontSize: '16px' }}>Complete guide to depositing money into your <strong>HM77</strong> account via JazzCash and EasyPaisa. Minimum PKR 100. Balance updates instantly.</p>
           <div style={{ display: 'flex', gap: '12px', marginTop: '20px', flexWrap: 'wrap' }}>
